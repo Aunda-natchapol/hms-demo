@@ -206,7 +206,7 @@ const HousekeepingTasksView: React.FC = observer(() => {
                 {tasks.length === 0 && (
                   <TableRow>
                     <TableCell colSpan={7} align="center" sx={{ py: 4 }}>
-                      <Typography color="text.secondary">ยังไม่มีรายการงาน</Typography>
+                      <Typography color="text.secondary">ยังไม่มีรายการงานด</Typography>
                     </TableCell>
                   </TableRow>
                 )}
